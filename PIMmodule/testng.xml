@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E">
+	<test thread-count="5" name="AllFunctionalities">
+		<classes>
+			<!-- <class name="com.validations.SearchValidation"/> 
+			     <class name="com.validations.AddEmployeeWithoutLoginDetails"/> 
+				 <class name="com.validations.AddEmployeeWithLoginDetails"/> 
+				 <class name="com.validations.SearchValidationsInEmployeeListPage"/> -->
+			<class name="com.validations.E2EActionsOnEmployeeDetails" />
+			<class name="com.validations.E2EActionsOnReports" />
+			<class name="com.validations.E2EActionsOnConfiguration" />
+
+		</classes>
+	</test> <!-- AllFunctionalities -->
+</suite> <!-- E2E -->
